@@ -34,7 +34,7 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 
 
 .column{
-    padding-left:6.25pc;
+    padding-left:.25pc;
     padding-right:75pt
 }
 
@@ -43,12 +43,12 @@ html{
 }
 
 .mbox{
-    padding-left:1.25rem;
+    padding:-left 1.25rem;
     padding-bottom:1.25rem;
     padding-right:1.25rem;
     padding-top:1.25rem;
     border-radius:.1875rem;
-    border-left-width:.0625rem;
+    border-left-width:0;
     border-right-width:.0625rem;
     border-bottom-width:.0625rem;
     border-top-width:.0625rem;
@@ -65,11 +65,32 @@ html{
     background-color:rgba(0,0,0,.1);
     font-weight:400;
     font-size:.8125rem;
-    margin-left:520pt;
-    margin-right:450pt;
+    margin-left:35%;
+    margin-right:35%;
     max-width: 14.1cm;
     min-width: 4cm;
 }
+
+/*.mbox{
+    margin-left: 40%;
+    margin-right: 35%;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border-right-style:solid;
+    border-top-style:solid;
+    border-left-color:rgba(0,0,0,.3);
+    border-bottom-color:rgba(0,0,0,.3);
+    border-right-color:rgba(0,0,0,.3);
+    border-top-color:rgba(0,0,0,.3);
+    border-image:none;
+    color:rgba(255,255,255,.7);
+    background-color:rgba(0,0,0,.1);
+    font-weight:400;
+    padding:-left 1.25rem;
+    padding-bottom:1.25rem;
+    padding-right:1.25rem;
+    padding-top:1.25rem;
+}*/
 
 *{
     font-family:"Open Sans",sans-serif;
